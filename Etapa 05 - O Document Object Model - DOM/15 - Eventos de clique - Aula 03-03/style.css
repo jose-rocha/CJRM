@@ -1,0 +1,26 @@
+ul{
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+    max-width: 200px;
+    padding: 8px;
+    margin: 8px 0;
+    background: #eee;
+    border: 1px dotted #ddd;
+}
+
+button{
+    background: #eee;
+    border: 1px  #ddd;
+    width: 100px;
+    height: 30px;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.colorRed{
+    color: green;
+}
