@@ -105,7 +105,7 @@ let numbersBetween11and90 = []
     }
   }
 
-  console.log(numbersBetween11and90);
+  // console.log(numbersBetween11and90);
 /*
   05
 
@@ -140,7 +140,7 @@ for(let i = 0; i < crazyArray.length; i++){
    }
 }
 
-console.log(`O crazyArray tem ${booleanAmount} booleans, ${numberAmount} números e ${string} strings.`);
+// console.log(`O crazyArray tem ${booleanAmount} booleans, ${numberAmount} números e ${string} strings.`);
 /*
   06
 
@@ -163,11 +163,9 @@ const randomNumbers = [73, 4, 67, 10, 31, 58]
 let oddNumbers = []
 let evenNumbers = []
 
-for(let i =0; i < randomNumbers.length; i++){
+for(let i = 0; i < randomNumbers.length; i++){
   const number = randomNumbers[i]
-  const isEvenNumber = number
-  
-  % 2 === 0
+  const isEvenNumber = number % 2 === 0
 
   if(isEvenNumber){
     evenNumbers.push(number)
@@ -179,5 +177,5 @@ for(let i =0; i < randomNumbers.length; i++){
 const oddNumbersRefactor = oddNumbers.join(', ').replace(', 3', ' e 3')
 const evenNumbersRefactor = evenNumbers.join(', ').replace(', 5', ' e 5')
 
-console.log(evenNumbers, oddNumbers)
-console.log(`Numeros ímpares: ${oddNumbersRefactor}. Números pares: ${evenNumbersRefactor}.`);
+// console.log(evenNumbers, oddNumbers)
+// console.log(`Numeros ímpares: ${oddNumbersRefactor}. Números pares: ${evenNumbersRefactor}.`);

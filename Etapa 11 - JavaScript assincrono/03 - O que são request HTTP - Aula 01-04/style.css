@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+   
+}
+
+
+
+/* ul{
+    align-items: center;
+} */
+
+li{
+    list-style: none;
+    text-align: center;
+
+}
+
+.space{
+    margin-top: 15px;
+}
